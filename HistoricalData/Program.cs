@@ -12,7 +12,7 @@ string apiKey = "";
 string secretKey = "";
 Host.CreateDefaultBuilder(args)
     .ConfigureLogging(logging => logging.AddConsole())
-    .ConfigureWebHostDefaults(webBuilder => webBuilder.UseUrls("http://0.0.0.0:5200")
+    .ConfigureWebHostDefaults(webBuilder => webBuilder
     .ConfigureAppConfiguration((hostingContext, config) => 
     { apiKey = config.Build().GetValue<string>("apiKey"); secretKey = config.Build().GetValue<string>("secretKey"); })
     .ConfigureServices(services =>

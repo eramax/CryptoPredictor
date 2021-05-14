@@ -6,7 +6,7 @@ using Microsoft.Extensions.Logging;
 
 Host.CreateDefaultBuilder(args)
     .ConfigureLogging(logging => logging.AddConsole())
-    .ConfigureWebHostDefaults(webBuilder => webBuilder.UseUrls("http://0.0.0.0:5100")
+    .ConfigureWebHostDefaults(webBuilder => webBuilder
     .ConfigureServices(services =>
     {
         services.AddCors();

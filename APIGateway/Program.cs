@@ -15,7 +15,7 @@ using Ocelot.Provider.Polly;
 string stringKey = "";
 Host.CreateDefaultBuilder(args)
     .ConfigureLogging(logging => logging.AddConsole())
-    .ConfigureWebHostDefaults(webBuilder => webBuilder.UseUrls("https://0.0.0.0:5000")
+    .ConfigureWebHostDefaults(webBuilder => webBuilder
     .ConfigureAppConfiguration((hostingContext, config) => stringKey = config.Build().GetValue<string>("Secret"))
     .ConfigureServices(services =>
     {

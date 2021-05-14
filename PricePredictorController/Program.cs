@@ -8,7 +8,7 @@ using Shared.Models;
 
 Host.CreateDefaultBuilder(args)
     .ConfigureLogging(logging => logging.AddConsole())
-    .ConfigureWebHostDefaults(webBuilder => webBuilder.UseUrls("http://0.0.0.0:5500")
+    .ConfigureWebHostDefaults(webBuilder => webBuilder
     .ConfigureServices(services =>
     {
         services.AddControllers();       

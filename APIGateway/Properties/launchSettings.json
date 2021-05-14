@@ -2,6 +2,7 @@
   "profiles": {
     "APIGateway": {
       "commandName": "Project",
+      "applicationUrl": "https://0.0.0.0:5000",
       "environmentVariables": {
       }
     }

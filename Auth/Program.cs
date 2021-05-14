@@ -9,7 +9,7 @@ using System.Text;
 string stringKey = "";
 Host.CreateDefaultBuilder(args)
     .ConfigureLogging(logging => logging.AddConsole())
-    .ConfigureWebHostDefaults(webBuilder => webBuilder.UseUrls("http://0.0.0.0:5300")
+    .ConfigureWebHostDefaults(webBuilder => webBuilder
     .ConfigureAppConfiguration((hostingContext, config) => stringKey = config.Build().GetValue<string>("Secret"))
     .ConfigureServices(services =>
     {
