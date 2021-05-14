@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "SignalRServer": {
+      "commandName": "Project",
+      "environmentVariables": {
+      }
+    }
+  }
+}

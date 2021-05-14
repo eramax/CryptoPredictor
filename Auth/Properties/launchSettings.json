@@ -1,0 +1,9 @@
+﻿{
+  "profiles": {
+    "AuthServer": {
+      "commandName": "Project",
+      "environmentVariables": {
+      }
+    }
+  }
+}

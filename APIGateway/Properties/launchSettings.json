@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "APIGateway": {
+      "commandName": "Project",
+      "environmentVariables": {
+      }
+    }
+  }
+}

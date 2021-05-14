@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Ticker2": {
+      "commandName": "Project",
+      "environmentVariables": {
+      }
+    }
+  }
+}

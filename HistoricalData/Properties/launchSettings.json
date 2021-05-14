@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "DataServer": {
+      "commandName": "Project",
+      "environmentVariables": {
+      }
+    }
+  }
+}
