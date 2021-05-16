@@ -1,5 +1,5 @@
-# Ct
-![demo](./docs/demo.gif)]
+# CryptoPredictor
+![demo](./docs/demo.gif)
 ## A simple application to cover :
 - Microservice architecture 
 - SignalR real time messaging 
