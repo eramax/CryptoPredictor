@@ -1,6 +1,6 @@
 # CryptoPredictor
 ![demo](./docs/demo.gif)
-## A simple application to cover :
+## A simple application to cover 
 - Microservice architecture 
 - SignalR real time messaging 
 - RabbitMQ service bus
