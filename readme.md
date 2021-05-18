@@ -15,3 +15,7 @@
 - ML.NET support building many machine learning applications with less code.
 - Vue.js framework helps you to build complete front end application with less code than other frameworks.
 - SignalR binds both client and server together and allow remote method invocation to both.
+
+## Presentation 
+![PDF slides](./docs/slides.pdf)
+
